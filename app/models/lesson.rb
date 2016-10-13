@@ -20,6 +20,6 @@ class Lesson < ApplicationRecord
   private
 
   def create_words
-    self.words = self.category.words.order("RAND()").limit Settings.words_number
+    self.words = self.category.words.order("RANDOM()").limit Settings.words_number
   end
 end

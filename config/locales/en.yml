@@ -113,3 +113,5 @@ en:
   answer: "answer"
   add_answer: "Add answer"
   remove_answer: "Remove answer"
+  unfollow_user: "Unfollow"
+  follow_user: "Follow"
